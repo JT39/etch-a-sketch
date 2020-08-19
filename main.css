@@ -1,0 +1,47 @@
+.container {
+    width: 900px;
+    height: 900px;
+    display: grid;
+    place-content: stretch;
+    background-color: white;
+    margin: 0 auto;   
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.color {
+    background-color: black;
+    border: 1px solid white;
+}
+
+.flexbox {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    word-wrap: break-word;
+    white-space: normal;
+    margin-left: 50px;
+    width: auto;
+    height: 50px;
+    font-size: 15px;
+    }
+
+h1 {
+    align-self: start;
+    font-size: 40px;
+}
+
+.newColor {
+    background-color: white;
+    border: 1px solid black;
+}
+
