@@ -54,9 +54,10 @@ randomColor.onclick = function() {
 
 function reset() {
     let allDivs = document.querySelectorAll('.container > div');
+    let totalDivs = Math.sqrt(allDivs.length);
     for (let i = 0; i < allDivs.length; i++) {
         let item = allDivs[i];
-        item.classList.remove('color');
-        item.setAttribute('style', 'background-color: white; border: 1px solid black');
+        container.removeChild(item);
     }
+    makeGrid(totalDivs);
 }
